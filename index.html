@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taran's Portfolio</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <meta name="description" content="Frontend Developer" />
+  </head>
+  <body>
+    <canvas id="bg"></canvas>
+    <main>
+      <div class="max-w-7xl px-3 mx-auto">
+        <section class="h-screen flex flex-col justify-center">
+          <h2 class="text-6xl bg-white text-black rounded-md p-5 max-w-sm">
+            Taran Arora
+          </h2>
+          <p
+            class="
+              text-lg
+              mt-5
+              bg-white
+              text-gray-800
+              max-w-xl
+              rounded-md
+              p-5
+              inline-block
+            "
+          >
+            I am a Web Developer with enthusiasm and focus on Frontend
+            Development I am passionate about building scalable software,
+            creating effective solutions, and learning every day to grow
+            professionally. Feel free to contact me via email at any time
+          </p>
+          <div>
+            <button class="p-4 text-xl mt-5 bg-black">Resume</button>
+          </div>
+        </section>
+        <section class="relative flex flex-col">
+          <h3 class="text-6xl mt-10 font-semibold">PROJECTS</h3>
+          <div id="projects" class="grid mt-10 lg:grid-cols-2 gap-10"></div>
+        </section>
+        <section class="h-screen flex flex-col justify-center">
+          <div class="max-w-2xl rounded-md text-black bg-white p-10">
+            <h3 class="text-3xl font-bold">Lets Make Something Great</h3>
+            <p class="text-gray-700 mt-5 text-xl">
+              Feel free to reach out through any platforms bellow
+            </p>
+            <div class="mt-5 flex items-center flex-wrap gap-10 text-5xl">
+              <a href="https://www.linkedin.com/in/taran-arora/">
+                <img class="w-11" src="/linkedin.png" alt="linkedin" />
+              </a>
+              <a href="https://twitter.com/itstaranarora">
+                <img class="w-14" src="/Twitter-logo.png" alt="twitter" />
+              </a>
+              <a href="https://www.facebook.com/Taranarora011/">
+                <img class="w-12" src="/facebook.png" alt="facebook" />
+              </a>
+              <a href="mailto:itstaranarora@gmail.com">
+                <img class="w-12" src="/gmail.png" alt="gamil" />
+              </a>
+              <a href="https://www.instagram.com/itstaranarora/">
+                <img class="w-12" src="/instagramIcon.png" alt="instagram" />
+              </a>
+            </div>
+            <p class="text-gray-700 mt-5 text-xl">You can also follow me on:</p>
+            <div class="mt-5 flex flex-wrap gap-10 text-5xl">
+              <a href="https://github.com/itstaranarora">
+                <img class="w-12" src="/github.png" alt="github" />
+              </a>
+              <a href="https://itstaranarora.medium.com/">
+                <img class="w-12" src="/medium.png" alt="medium" />
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

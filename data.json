@@ -1,0 +1,30 @@
+[
+  {
+    "project_name": "Eventhut",
+    "paragraph": "Eventhut is a web platform which allow users to discover and book slot for their favorite events. Frontend for this app is build using React and for Backend I have used Strapi",
+    "img": "/eventhut.png",
+    "live_url": "https://eventhut.vercel.app/",
+    "source_code": "https://github.com/itstaranarora/eventhut-next"
+  },
+  {
+    "project_name": "Snackstore",
+    "paragraph": "Snackstore is a online food-ordering single page web application. This app is build using React, Context API and Firebase Authentication Service",
+    "img": "/snackstore.png",
+    "live_url": "https://snackstore-react.web.app/",
+    "source_code": "https://github.com/itstaranarora/snackstore"
+  },
+  {
+    "project_name": "Movietrova",
+    "paragraph": "A prograssive web application to find ratings and parental guide for the newest movie. I used React, React Router and TMDB API in order to create this website",
+    "img": "/movietrova.png",
+    "live_url": "https://movietrova.netlify.app/",
+    "source_code": "https://github.com/itstaranarora/movietrova"
+  },
+  {
+    "project_name": "Video-chat-v1",
+    "paragraph": "Video-chat-v1 is a video chat app that makes it easy to groups up with people you want to meet. This app is build using NodeJS, Socket.io, and Peerjs(WebRTC)",
+    "img": "/video-chat.png",
+    "live_url": "https://video-chat-app-v1.herokuapp.com/",
+    "source_code": "https://github.com/itstaranarora/video-chat-v1/"
+  }
+]
